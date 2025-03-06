@@ -3,11 +3,6 @@ import re
 import secrets
 import string
 
-import streamlit as st
-import re
-import secrets
-import string
-
 def check_strength(password):
     strength = 0
     suggestions = []
